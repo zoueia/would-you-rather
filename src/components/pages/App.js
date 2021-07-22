@@ -41,7 +41,7 @@ class App extends React.Component {
         <Router>
         <Switch>
         <Route exact path='/home' render={()=>{if(authen){return <ConnectedHome/>}else{{this.current('/home')} return (<Redirect to={'/'}></Redirect>)}}}/>
-        <Route exact path='/leaderboard' render={()=>{if(authen){return <ConnectedUsersBoard/>}else{{this.current('/users-board')} return (<Redirect to={'/'}></Redirect>)}}}/>
+        <Route exact path='/leaderboard' render={()=>{if(authen){return <ConnectedUsersBoard/>}else{{this.current('/leaderboard')} return (<Redirect to={'/'}></Redirect>)}}}/>
         <Route exact path='/unanswered-q' render={()=>{if(authen){return <ConnectUnansweredQ/>}else{{this.current('/unanswered-q')} return (<Redirect to={'/'}></Redirect>)}}}/>
         <Route exact path='/answered-q' render={()=>{if(authen){return <ConnectedAnsweredQ/>}else{{this.current('/answered-q')} return (<Redirect to={'/'}></Redirect>)}}}/>
         <Route exact path='/user-name' render={()=>{if(authen){return <ConnectUserAcc/>}else{{this.current('/user-name')} return (<Redirect to={'/'}></Redirect>)}}}/>
