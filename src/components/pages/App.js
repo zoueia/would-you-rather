@@ -54,7 +54,7 @@ class App extends React.Component {
                   return <div><ConnectedUsersBoard/><ConnectedForm/></div>
               case '/unanswered-q':
                   return <div><ConnectUnansweredQ/><ConnectedForm/></div>
-              case 'answered-q':
+              case '/answered-q':
                   return <div><ConnectedAnsweredQ/><ConnectedForm/></div>
               case '/user-name':
                   return <div><ConnectUserAcc/><ConnectedForm/></div>
