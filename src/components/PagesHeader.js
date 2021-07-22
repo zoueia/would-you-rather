@@ -29,7 +29,7 @@ return(
           <div><button><Link to='/form'><img src={process.env.PUBLIC_URL +'Group 35.svg'} alt="icon" /></Link></button><Link to='/form'>Ask Question</Link></div>
         </div>
         <div className="sec2">
-          <div><button><img src={process.env.PUBLIC_URL +'Group 37.svg'} alt="" /></button><Link to='/users-board'>Users boared</Link></div>
+          <div><button><img src={process.env.PUBLIC_URL +'Group 37.svg'} alt="" /></button><Link to='/leaderboard'>Users boared</Link></div>
           <Link to='/unanswered-q'>unanswered questions</Link>
           <Link to='/answered-q'>answered questions</Link>
           <Link to='/user-name'>my questions</Link>
