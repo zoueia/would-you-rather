@@ -50,7 +50,7 @@ class App extends React.Component {
 
         <Route exact path='/form' render={()=>{if(authen){
             switch(carrentPage) {
-              case '/users-board':
+              case '/leaderboard':
                   return <div><ConnectedUsersBoard/><ConnectedForm/></div>
               case '/unanswered-q':
                   return <div><ConnectUnansweredQ/><ConnectedForm/></div>
