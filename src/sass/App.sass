@@ -1,0 +1,301 @@
+@import './component/un'
+@import './component/_form'
+@import './component/_extend-header'
+@import './component/_user-card'
+@import './component/_log-in'
+@import './component/_feed'
+
+html
+    // font-size: 18px
+*
+    background-repeat: no-repeat
+    background-size: cover
+.header
+     color:#989898
+     display: flex
+     flex-wrap: wrap
+     align-items: center
+     border-bottom: 1px solid #E5E5E5
+     min-height: 17rem
+     .profile-pic
+         margin-left: 2.0rem
+         flex-shrink: 0
+         margin-top: 2rem
+         .edit-profile-pic
+             background-color: #ffffff00 
+             border: 0
+         .the-pic
+             background-color: #ffffff00
+             border: 0 
+             width: 9rem
+             height: 9rem
+             a
+                .profile-pic-image
+                    width: 8.688rem
+                    border-radius: 5.0rem
+                .add-q
+                    position: relative
+                    width: 4.4rem
+                    height: 4.4rem
+                    left: 4rem
+                    top: -10.1rem
+                    background: #FFFFFF
+                    border: .1rem solid #777777
+                    border-radius: 5.35rem
+                .add-q:hover
+                    background-image: url('D:\Desktop\would you rather\would-you-rather\public\images\Group 39.png')    
+         .user-name
+             font-family: 'Roboto', sans-serif
+             font-weight: 400        
+             font-size: 3rem 
+             margin-left: 1.2rem
+             background: #ffffff00
+             border: 0
+             a
+                 text-decoration: none
+                 color: #989898
+             a:hover 
+                 color: #4FA8BB     
+                
+     .show-questions
+         flex-grow: 1
+         list-style: none
+         margin-top: 8.0rem
+         display: grid
+         grid-template-columns: minmax(200px,250px) minmax(165px,250px) 
+         .stays-alone
+             grid-column: 1/-1
+         label
+             font-family: 'Roboto', sans-serif
+             font-weight: 400
+             font-size: 1.5rem
+             list-style: none
+             margin: 0 2rem 2rem 2.5rem
+             input
+                 display: inline-block
+                 cursor: pointer
+                 border: 0
+                 margin: 0 1rem 0 0 
+                 width: 1.938rem
+                 height: 1.938rem
+                 background: #FFFFFF
+                 box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25)
+             input:hover
+                     box-shadow: -2px 3px 8px rgba(79, 168, 187, 0.25)
+         @media screen and ( max-width: 872px  )
+             margin-top: 1rem
+
+     .drop-menue-button
+         .drop-button
+            position: absolute
+            display: flex
+            justify-content: center
+            align-items: flex-end
+            width: 143.12px
+            height: 143.12px
+            right: 60px
+            top: -78px
+            background: #FFFEFE
+            border: 1px solid #D6D6D6
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25)
+            border-radius: 73.5px
+            line-height: 75px
+            font-family: 'Roboto', sans-serif
+            font-weight: 300
+            font-size: 1.8rem 
+            @media screen and ( max-width: 540px  )
+                 background: #fffefe60
+
+         .menue
+            align-self: flex-start
+            position: absolute
+            right: 3px
+            top: -400px
+            transition: top .6s
+            border-radius: 22% 0% 59% 43% / 45% 7% 100% 100% 
+            background: #ffffff
+            box-shadow: 0px 1px 30px rgba(79, 168, 187, 0.25)
+            display: flex
+            column-gap: 3.5rem
+            font-family: 'Roboto', sans-serif
+            font-weight: 400
+            font-size: 1.5rem 
+            margin: 0 0 2rem 2rem 
+            padding: 10px
+            a
+                color: #4FA8BB
+                cursor: pointer
+            .sec1
+                div
+                    min-height: 20.0rem
+                    border-right: 1px solid #E5E5E5 
+                    display: flex
+                    flex-wrap: nowrap
+                    align-items: center
+                    button
+                        background: #ffffff00
+                        border: 0
+                        a
+                            margin: 0 0 0 0
+
+                        img
+                            width: 4.5rem
+                            height: 4.5rem
+                    a
+                        font-size: 1.75rem 
+                        margin: 0 1rem 0 0  
+            .sec2
+                display: flex
+                flex-direction: column
+                align-self: center
+                div
+                    display: flex
+                    flex-wrap: nowrap
+                    align-items: center
+                    text-align: center
+                    padding-bottom: 10px
+                    button
+                        background: #ffffff00
+                        border: 0
+                        padding: 0
+                        margin-bottom: 1.8rem
+                        margin-right: .7rem
+                        img
+                        width: 2em
+                        height: 2rem
+                    a
+                    margin: 1rem 0  -1.5rem 1rem 
+                a
+                    margin: 0 0 1.5rem 0
+                    
+            .sec3
+                align-self: flex-start
+                margin: 3rem 3rem 0 0
+                div
+                    background-color: #FF8642
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    height: 7.0rem
+                    width: 9.0rem
+                    border-radius: 7.1rem
+                    a
+                        color: white
+            // display: none  
+            @media screen and ( max-width: 495px  )
+                align-self: flex-start
+                position: absolute
+                right: 3px
+                top: -400px
+                transition: top .6s
+                border-radius: 22% 0% 0% 100% / 45% 7% 100% 100% 
+                background: #ffffff
+                box-shadow: 0px 1px 30px rgba(79, 168, 187, 0.25)
+                display: flex
+                flex-direction: column
+                column-gap: 0rem
+                font-family: 'Roboto', sans-serif
+                font-weight: 400
+                font-size: 1.5rem 
+                margin: 0 0 0 0 
+                padding: 30px
+                a
+                    color: #4FA8BB
+                    cursor: pointer
+                .sec1
+                    
+                    div
+                        min-height: 0rem
+                        border-right: 0 
+                        display: flex
+                        flex-wrap: nowrap
+                        align-items: center
+                        button
+                            background: #ffffff00
+                            border: 0
+                            a
+                                margin: 0 0 0 0
+
+                            img
+                                width: 4.5rem
+                                height: 4.5rem
+                        a
+                            font-size: 1.75rem 
+                            margin: 0 1rem 0 0  
+                .sec2
+                    display: flex
+                    flex-direction: column
+                    align-items: flex-end
+                    align-self: center
+                    div
+                        display: flex
+                        flex-wrap: nowrap
+                        align-items: center
+                        text-align: center
+                        padding-bottom: 15px
+                        padding-top: 13px
+                        button
+                            background: #ffffff00
+                            border: 0
+                            padding: 0
+                            margin-bottom: 1.8rem
+                            margin-right: .7rem
+                            img
+                            width: 2rem
+                            height: 2rem
+                        a
+                        margin: 1rem 0  -1.5rem 1rem 
+                    a
+                        margin: 0 0 1.5rem 0
+                        
+                .sec3
+                    align-self: flex-end
+                    margin: 0 0 0 0
+                    div
+                        background-color: #FF8642
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        height: 7.0rem
+                        width: 9.0rem
+                        border-radius: 7.1rem
+                        a
+                            color: white
+     @media screen and ( max-width: 872px  )
+         .drop-button
+             
+               
+                        
+     .drop-menue-button:hover
+         cursor: pointer
+         .menue
+             display: flex
+             top: 0   
+                   
+                    
+
+        
+                
+        
+    
+                
+                
+                
+
+                
+
+
+
+   
+                 
+                 
+       
+
+
+    
+                
+
+
+
+
+

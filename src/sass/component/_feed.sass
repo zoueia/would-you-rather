@@ -1,0 +1,152 @@
+.grid-wrapper 
+    display: grid
+    grid-template-columns: 1fr
+    justify-content: center
+    align-content: center 
+    justify-items: center
+    .feed
+        position: relative
+        margin: 8.8rem
+        margin-bottom: 0
+        background: #FFFFFF
+        border: 1px solid #BDBDBD
+        border-radius: 51px
+        display: flex
+        flex-direction: column
+        color: #989898 
+        font-size: 1.5rem
+
+        .poll
+            order: 1
+            display: flex
+            flex-direction: column
+            padding: 0 1.4rem 0  1.4rem
+            .sec1
+                margin-top: 2.4rem
+                #would-you-rather
+                    color: #626262
+                    font-size: 2.666rem
+            .sec2
+                margin-top: 1.4rem
+                flex-grow: 1
+                .wrap
+                    display: flex
+                    align-items: center
+                    margin-bottom: 2rem
+                    span
+                        margin-right: .8rem
+                        font-size:  2.3rem
+                    .options  
+                        display: flex
+                        align-items: center 
+                        flex-grow: 1 
+                        input
+                            height: 2.3rem
+                            width: 2.3rem
+                            margin-right: .8rem
+                        input:hover
+                            border: blue
+                            cursor: pointer    
+                        .option
+                            flex-grow: 1
+                            font-weight: 300
+                            max-width: 68.8rem
+                            font-family: 'Noto Sans', sans-serif
+                            font-size: 1.5rem
+                            line-height: 165.19%
+                            color: #000000
+                        .vote-results
+                              .showVotes
+                                  height: 10px
+                                  background: #271b495d
+                                  border-radius: 5px
+                                  .color-per
+                                      height: 100%
+                                      background: #006eff
+                                      border-radius: 5px
+                                      transition: width 1s
+                              span 
+                                  color: #989898 
+                                  font-size: 1.5rem
+                                  text-align: left
+                              .percentage
+                                  color:#4FA8BB 
+                .wrap:last-child 
+                    margin-bottom: 2rem                     
+
+        .profile
+            border-bottom: 1px solid #BDBDBD
+            padding: 1.4rem 1.4rem 0  1.4rem
+            font-size: 1.5rem
+            display: flex
+            align-items: center
+            flex-wrap: wrap
+            div
+                flex-grow: 1
+                display: flex
+                flex-direction: column
+                align-items: center
+                img
+                    width: 10.533rem
+                    border-radius: 50%
+                .use-name
+                    display: block
+                    font-size: 2rem
+            .info
+                flex-wrap: wrap
+                display: flex
+                flex-direction: row
+                align-items: center        
+                .user-q
+                    display: flex
+                    flex-direction: row
+                    align-items: center
+                    div
+                        padding: 2rem
+                        span
+                            display: block
+                            font-size: 1.5rem
+                            text-align: center
+                        .number
+                            color: #626262
+
+        .all-votes
+            order: 2
+            display: flex
+            align-items: center
+            padding: 0 1.4rem 1rem  1.4rem
+            .btn
+                background: white
+                border-radius: 50%
+                border-color: #C6C6C6
+                color: #929292
+            .btn:hover
+                border: 1.4px solid
+                border-bottom-color: #FF1EC0
+                border-left-color: #FF1E6F
+                border-right-color: #1EFFF1
+                border-top-color: #1EFFC9
+            .btn:focus
+                outline: none
+                border: 1.4px solid
+                border-bottom-color: #ff00b7
+                border-left-color: #ff005d
+                border-right-color: #00ffee
+                border-top-color: #00ffc3    
+            span 
+                display: block
+                text-align: center
+                flex-grow: 1
+                font-size: 1.2rem  
+            .score
+                font-size: 1.5rem  
+                margin-left: 50px 
+
+    .feed:last-child 
+        margin-bottom: 8.8rem                        
+
+        
+
+            
+
+     
