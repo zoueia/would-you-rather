@@ -8,7 +8,7 @@ import {withRouter} from 'react-router-dom'
 class UsersBoard extends React.Component{
   componentDidMount = () =>{
     const {dispatch} = this.props
-    dispatch(visit('/users-board'))
+    dispatch(visit('/leaderboard'))
   }
   usersBoard = () => {
     let {users} = this.props 
