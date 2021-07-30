@@ -39,11 +39,30 @@
 
  <h2 align="center">App Start</h2>
  
+ Install packages:
+
+```bash
+npm install 
+```
+
+start App:
+
+```bash
+npm install start
+```
+ 
  <h2 align="center">Configrations</h2>
+ Webpack is a bundler for modules. The main purpose is to bundle JavaScript
+ files for usage in a browser, yet it is also capable of transforming, bundling,
+ or packaging just about any resource or asset.
  
- ### [Plugins](https://webpack.js.org/plugins/)
+ ### [Loaders](https://webpack.js.org/plugins/)
+ Loaders can preprocess files while compiling, e.g. TypeScript to JavaScript, Handlebars strings to compiled functions, images to Base64, etc.
  
- ### [Loaders](https://webpack.js.org/loaders/)
+ ### [Plugins](https://webpack.js.org/loaders/)
+ Highly modular plugin system to do whatever else your application requires.
+ [html-webpack-plugin][html-plugin]
+Simplifies creation of HTML files (`index.html`) to serve your bundles
  
  <h2 align="center">API calls</h2>
  
