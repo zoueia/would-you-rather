@@ -25,12 +25,12 @@
 2. [Introduction](#introduction)
 3. [Concepts](#concepts)
 4. [Contributing](#contributing)
-5. <h2 align="center">Concepts</h2>
-6. <h2 align="center">Concepts</h2>
-7. ### [Plugins](https://webpack.js.org/plugins/)
-8. ### [Loaders](https://webpack.js.org/loaders/)
-9. <h2 align="center">Concepts</h2>
-10. * [`getAll`](#getall)
+ <h2 align="center">Concepts</h2>
+ <h2 align="center">Concepts</h2>
+ ### [Plugins](https://webpack.js.org/plugins/)
+ ### [Loaders](https://webpack.js.org/loaders/)
+ <h2 align="center">Concepts</h2>
+* [`getAll`](#getall)
 * [`update`](#update)
 * [`search`](#search)
 ### `getAll`
