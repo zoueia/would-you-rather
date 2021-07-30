@@ -32,58 +32,57 @@
 ```
 ## Table of Contents
 
-1. [Install](#install)
-2. [Introduction](#introduction)
-3. [Concepts](#concepts)
-4. [Contributing](#contributing)
+1. [App Start](#install)
+2. [Configrations](#introduction)
+3. [API calls](#concepts)
+4. [Testing](#contributing)
 
- <h2 align="center">Concepts</h2>
+ <h2 align="center">App Start</h2>
  
- <h2 align="center">Concepts</h2>
+ <h2 align="center">Configrations</h2>
  
  ### [Plugins](https://webpack.js.org/plugins/)
  
  ### [Loaders](https://webpack.js.org/loaders/)
  
- <h2 align="center">Concepts</h2>
+ <h2 align="center">API calls</h2>
  
-* [`getAll`](#getall)
-* [`update`](#update)
-* [`search`](#search)
+* [`getData`](#getall)
+* [`handleSubmit`](#update)
+* [`checkForURL`](#search)
 
-### `getAll`
+### `getData`
 
 Method Signature:
 
 ```js
-getAll()
+getData(url)
 ```
 
-* Returns a Promise which resolves to a JSON object containing a collection of book objects.
-* This collection represents the books currently in the bookshelves in your app.
+* Returns a Promise which resolves to a JSON object containing article discription.
+* Update the DOM with recieved response.
 
-### `update`
+### `handleSubmit`
 
-Method Signature:
+* Invoke getData and URLchecker to make api call.
 
 ```js
-update(book, shelf)
+handleSubmit(event)
 ```
 
 * book: `<Object>` containing at minimum an `id` attribute
 * shelf: `<String>` contains one of ["wantToRead", "currentlyReading", "read"]  
 * Returns a Promise which resolves to a JSON object containing the response data of the POST request
 
-### `search`
+### `checkForURL`
 
 Method Signature:
 
 ```js
-search(query)
+checkForURL(url)
 ```
 
-* query: `<String>`
-* Returns a Promise which resolves to a JSON object containing a collection of a maximum of 20 book objects.
-* These books do not know which shelf they are on. They are raw results only. You'll need to make sure that books have the correct state while on the search page.
+* Returns true if url is an actual URL `
+* Returns false if url is not an actual url.
 
- <h2 align="center">Concepts</h2>
+ <h2 align="center">Testing</h2>
