@@ -30,9 +30,11 @@
  ### [Plugins](https://webpack.js.org/plugins/)
  ### [Loaders](https://webpack.js.org/loaders/)
  <h2 align="center">Concepts</h2>
+ 
 * [`getAll`](#getall)
 * [`update`](#update)
 * [`search`](#search)
+
 ### `getAll`
 
 Method Signature:
