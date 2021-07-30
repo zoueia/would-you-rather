@@ -8,26 +8,27 @@
 ├── .env # enviroment variables .
 ├── .babelrc # enviroment variables .
 ├── src
-    ├── client
-        └── js
-            └── formHandler.js
-            └── mockAPI.js
-            └── URLChecker.js
-        └── styles
-            └── base.scss
-            └── footer.scss
-            └── form.scss
-            └── header.scss
-            └── resets.scss
-        └── views
-            └── index.html
-        └── index.js
-  
-    └── server
-        ├── index.js # express server.
-├── __test__ 
-        ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
-        ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
+│    ├── client
+│    │    └── js
+│    │    │    └── formHandler.js
+│    │    │    └── mockAPI.js
+│    │    │    └── URLChecker.js
+│    │    └── styles
+│    │    │    └── base.scss
+│    │    │    └── footer.scss
+│    │    │    └── form.scss
+│    │    │    └── header.scss
+│    │    │    └── resets.scss
+│    │    └── views
+│    │    │    └── index.html
+│    │    └── index.js
+│    │
+│    └── server
+│        └── index.js # express server.
+└── __test__ 
+        ├── URLChecker.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
+        ├── getData.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
+        └── handleSubmit.test.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
 ```
 ## Table of Contents
 
