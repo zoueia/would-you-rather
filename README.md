@@ -64,15 +64,13 @@ getData(url)
 
 ### `handleSubmit`
 
-* Invoke getData and URLchecker to make api call.
+Method Signature:
 
 ```js
 handleSubmit(event)
 ```
 
-* book: `<Object>` containing at minimum an `id` attribute
-* shelf: `<String>` contains one of ["wantToRead", "currentlyReading", "read"]  
-* Returns a Promise which resolves to a JSON object containing the response data of the POST request
+* Invoke getData and URLchecker to make api call.
 
 ### `checkForURL`
 
@@ -82,7 +80,7 @@ Method Signature:
 checkForURL(url)
 ```
 
-* Returns true if url is an actual URL `
+* Returns true if the url attribute is an actual URL `
 * Returns false if url is not an actual url.
 
  <h2 align="center">Testing</h2>
