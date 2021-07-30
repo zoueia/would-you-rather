@@ -58,6 +58,7 @@ npm install start
  
  ### [Loaders](https://webpack.js.org/plugins/)
  Loaders can preprocess files while compiling, e.g. TypeScript to JavaScript, Handlebars strings to compiled functions, images to Base64, etc.
+ in this project used (bable,style,css,and sass)loaders
  
  ### [Plugins](https://webpack.js.org/loaders/)
  Highly modular plugin system to do whatever else your application requires.
