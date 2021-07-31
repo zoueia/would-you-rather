@@ -62,8 +62,7 @@ npm install start
  
  ### [Plugins](https://webpack.js.org/loaders/)
  Highly modular plugin system to do whatever else your application requires.
- [html-webpack-plugin][html-plugin]
-Simplifies creation of HTML files (`index.html`) to serve your bundles
+ in this project used (HtmlWebPackPlugin,CleanWebpackPlugin,Dotenv,and HtmlWebPackPlugin)plugins
  
  <h2 align="center">API calls</h2>
  
