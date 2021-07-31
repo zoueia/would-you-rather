@@ -32,7 +32,7 @@
 ```
 ## Table of Contents
 
-1. [App Start](#install)
+1. [Start](#install)
 2. [Configrations](#introduction)
 3. [API calls](#concepts)
 4. [Testing](#contributing)
@@ -45,7 +45,7 @@
 npm install 
 ```
 
-start App:
+start the App:
 
 ```bash
 npm install start
