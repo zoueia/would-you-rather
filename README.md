@@ -33,9 +33,8 @@
 ## Table of Contents
 
 1. [Start](#install)
-2. [Configrations](#introduction)
-3. [API calls](#concepts)
-4. [Testing](#contributing)
+2. [API calls](#concepts)
+3. [Testing](#contributing)
 
  <h2 align="center">App Start</h2>
  
@@ -48,24 +47,9 @@ npm install
 start the App:
 
 ```bash
-npm install start
+npm start
 ```
- 
- <h2 align="center">Configrations</h2>
- Webpack is a bundler for modules. The main purpose is to bundle JavaScript
- files for usage in a browser, yet it is also capable of transforming, bundling,
- or packaging just about any resource or asset.
- 
- ### [Loaders](https://webpack.js.org/plugins/)
- Loaders can preprocess files while compiling, e.g. TypeScript to JavaScript, Handlebars strings to compiled functions, images to Base64, etc.
- in this project used (bable,style,css,and sass)loaders
- 
- ### [Plugins](https://webpack.js.org/loaders/)
- Highly modular plugin system to do whatever else your application requires.
- in this project used (HtmlWebPackPlugin,CleanWebpackPlugin,Dotenv,and HtmlWebPackPlugin)plugins
- 
- <h2 align="center">API calls</h2>
- 
+
 * [`getData`](#getall)
 * [`handleSubmit`](#update)
 * [`checkForURL`](#search)
